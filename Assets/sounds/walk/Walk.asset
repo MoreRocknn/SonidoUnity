@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-7667839042648688326
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkConfident_01_{-7667839042648688326}
+  m_AudioClip: {fileID: 8300000, guid: e944a48766721064c80bf80238524082, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2524078767680935238
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkConfident_04_{-2524078767680935238}
+  m_AudioClip: {fileID: 8300000, guid: a119b631764abca48b2c29207149ae1a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1365131415276176374
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkConfident_03_{-1365131415276176374}
+  m_AudioClip: {fileID: 8300000, guid: 4cf1a177f8dba284db2342d138c555bc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1002388596350792515
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkConfident_02_{1002388596350792515}
+  m_AudioClip: {fileID: 8300000, guid: 0fb6230a3becf98459491a0906f26ffa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Walk
+  m_Volume: -10.4
+  m_Pitch: 600
+  m_AutomaticTriggerTime: 14.4
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -5.0731707, y: 5.8536625}
+  m_PitchRandomizationRange: {x: -152.19525, y: 122.926704}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -4.390247, y: 4.6829295}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -7667839042648688326}
+  - {fileID: 1002388596350792515}
+  - {fileID: -1365131415276176374}
+  - {fileID: -2524078767680935238}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 0
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
